@@ -1,6 +1,6 @@
-# docker-nginx
+# anvil-mithril
 
-Minimalist Nginx image based on Alpine linux (6 MB)
+Example for a mithril app that uses Anvil connect for authentication
 
 ## Prerequisites
 
