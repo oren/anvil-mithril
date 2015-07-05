@@ -64,7 +64,7 @@ todo.view = function() {
 	return m("html", [
 		m("body", [
       m("style", todo.styles),
-      m("div", {class: todo.styles.title}, "Hello"),
+      m("div", {class: todo.styles.title}, "Hello!"),
 			m("input", {onchange: m.withAttr("value", todo.vm.description), value: todo.vm.description()}),
 			m("button", {onclick: todo.vm.add}, "Add"),
 			m("table", [

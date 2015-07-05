@@ -8,7 +8,7 @@ Example for a mithril app that uses Anvil connect for authentication
 * [docker compose](https://docs.docker.com/compose/install)
 
 ## Setup
-
+    bower install
     docker-compose up
     docker-compose run app npm install
     open http://localhost:3000

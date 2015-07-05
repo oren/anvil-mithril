@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify app.js -o bundle.js"
+    "build": "browserify app.js -o bundle.js",
+    "watch": "watchify --debug app.js -o bundle.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browserify": "^10.2.1",
-    "j2c": "^0.7.3"
+    "j2c": "^0.7.3",
+    "watchify": "^3.2.3"
   },
   "dependencies": {
     "mithril": "^0.2.0"
