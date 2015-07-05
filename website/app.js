@@ -3,8 +3,6 @@ var j2c = require('j2c');
 
 var $ = document.querySelector.bind(document);
 var session = require('./components/session.js');
-var callback = require('./components/callback.js');
-
 
 Anvil.configure({
   issuer:       'https://connect.anvil.io',

@@ -1,0 +1,31 @@
+{
+  "name": "anvil-mithril",
+  "version": "0.0.0",
+  "homepage": "https://github.com/oren/anvil-mithril",
+  "authors": [
+    "Christian Smith <smith@anvil.io>"
+  ],
+  "description": "example of mithril app authenticating with Anvil Connect",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "jsrsasign": "~4.7.0"
+  },
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "sjcl": "~1.0.3",
+    "crypto-js": "*",
+    "jsrsasign": "~4.8.3",
+    "jsjws": "~3.2.2",
+    "anvil-connect": "~0.1.2"
+  }
+}
